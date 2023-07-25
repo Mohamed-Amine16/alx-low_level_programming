@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts_half - a function that prints half of a string
- * if odd print the last n characters of the string 
+ * if odd print the last n characters of the string
  * @str: input
  * Return: half of input
  */
@@ -12,7 +12,7 @@ void puts_half(char *str)
 	leng = 0;
 
 	for (a = 0; str[a] != '\0'; a++)
-		leng ++;
+		leng++;
 
 	n = (leng / 2);
 
